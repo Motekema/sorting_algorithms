@@ -32,7 +32,7 @@ void swap_node_ahead(listint_t **list, listint_t **tail, listint_t **shaker)
 }
 
 /**
- * swap_node_behind - Swap a node in a listint_t doubly-linked list node behind.
+ * swap_node_behind - Swap a node in listint_t doubly-linked list node behind.
  * @list: A pointer to the list's head.
  * @tail: A pointer to the list's tail.
  * @shaker: A pointer to the current node in the cocktail shaker algorithm.
