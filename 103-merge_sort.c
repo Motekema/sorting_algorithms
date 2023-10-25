@@ -73,7 +73,7 @@ void merge_sort(int *array, size_t size)
 		return;
 
 	buffur = malloc(sizeof(int) * size);
-	if (buff ur == NULL)
+	if (buffur == NULL)
 		return;
 
 	merge_sort_recursive(array, buffur, 0, size);
