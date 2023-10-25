@@ -1,4 +1,3 @@
-103-merge_sort.c
 #include "sort.h"
 
 void merge_subarr(int *subarr, int *buff, size_t front, size_t mid,
@@ -74,7 +73,7 @@ void merge_sort(int *array, size_t size)
 		return;
 
 	buffur = malloc(sizeof(int) * size);
-	if (buff ur== NULL)
+	if (buff ur == NULL)
 		return;
 
 	merge_sort_recursive(array, buffur, 0, size);
